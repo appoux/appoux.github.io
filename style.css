@@ -1,3 +1,215 @@
-top-nav {
-    margin:auto;
+/*#external {
+    color: #f3f3f3;
+}*/
+
+body{
+    padding-bottom: 10em;
+    margin-bottom: 20em;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(71, 143, 65);
+}
+
+a:hover {
+    color: blue;
+}
+
+.button {
+    background-color: #333;
+    color: #f3f3f3;
+    padding: 1em 1.5em;
+    border-width: 0.2em;
+    border-radius: 1em;
+    border-color: #333;
+}
+
+.button:hover{
+    background: #f3f3f3;
+    color: #333;
+}
+
+.clr {
+    clear: both;
+}
+
+#traversytut {
+    background-color: #f4f4f4;
+    color: #555555;
+
+    /*
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    */
+
+    font: normal 20px Helvetica, Arial, sans-serif;
+
+    line-height: 1.6em;
+}
+
+.container {
+    width: 66%;
+    margin: auto;
+    margin-top: 3em;
+    padding: 1em;
+}
+
+.boxOne {
+    background-color: #333;
+    color: #f3f3f3;
+    border: 1.5em #333 solid;
+    border-width: 1.5em;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.boxOne h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.08em;
+    word-spacing: 0.6em;
+}
+
+.boxOne p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.boxTwo {
+    background-color: #bdbdbd;
+    color: #333;
+    border: 1.5em #bdbdbd solid;
+    border-width: 1.5em;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.boxTwo h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 0.03em;
+    word-spacing: 0.18em;
+}
+
+.boxTwo p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.categories {
+    border: 0.03em #ccc solid;
+    background-color: #f2f2f2;
+    padding: 1em;
+    border-radius: 1em;
+    margin-top: 10em;
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    padding: 0;
+    list-style: none;
+}
+
+.categories li {
+    padding-bottom: 0.5em;
+    border-bottom: dashed 0.2em #333;
+}
+
+.myForm {
+    padding: 1em;
+    margin-top: 10em;
+}
+
+.myForm .formTut {
+    padding-bottom: 1em;
+}
+
+.myForm label {
+    display: block;
+}
+
+.myForm input [type="text"], .myForm textarea {
+    padding: 0.6em;
+    width: 60%;
+}
+
+.blocktut{
+    float: left;
+    width: 32%;
+    background-color: #f2f2f2;
+    border: 0.3em solid #333;
+    border-radius: 10%;
+    padding: 0.7em;
+    margin: 0.25em;
+    box-sizing: border-box;
+    margin-top: 10em;
+}
+
+.blocktut p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+#main-block{
+    float: left;
+    width: 68%;
+    padding: 1.5em;
+    margin-top: 3em;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 32%;
+    background-color: #333;
+    color: #f3f3f3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.8em;
+    font-weight: 100;
+    padding: 1.5em;
+    margin-top: 3em;
+    border-style: none none double none;
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+
+.pboxtut{
+    margin-top: 10em;
+    width: 800px;
+    height: 500px;
+    border: 1em dotted #333;
+    border-radius: 50%;
+    padding: 1em;
+    position: relative;
+    background-image: url("https://library-artstor-org.proxy.lib.pdx.edu/#/asset/ACOOPER_10310347612");
+}
+
+.pboxtut h1{
+    position: absolute;
+    top: 3em;
+    left: 3em;
+}
+
+.pboxtut h2{
+    position: absolute;
+    top: 12em;
+    left: 18em;
+}
+
+.fixme {
+    position: fixed;
+    top: 50em;
+}
+
+/*helvetica, Arial, sans-serif 
+Impact, Charcoal, sans-serif
+Garamond, serif 
